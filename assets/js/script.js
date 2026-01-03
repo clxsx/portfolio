@@ -118,7 +118,7 @@ form.addEventListener("submit", async (e) => {
         fullname: form.fullname.value,
         email: form.email.value,
         discord: form.discord.value,
-        cfx_username: form["cfx-username"].value,
+        cfx_username: form.cfx_username.value,
         message: form.message.value,
         turnstile_token: token
       }),
